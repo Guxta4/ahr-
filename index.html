@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site de Curiosidades</title>
+    <title>Site de Curiosidades de jogos</title>
     <style>
         body, html {
             margin: 0;
@@ -32,7 +32,7 @@
             height: 100vh;
             color: white;
             text-align: center;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.8); /* Fundo preto translúcido */
         }
 
         /* Login Form */
@@ -43,22 +43,24 @@
         input[type="text"], input[type="password"] {
             padding: 10px;
             margin: 5px;
-            border: none;
+            border: 1px solid #0f0;
             border-radius: 5px;
+            background-color: black;
+            color: #0f0;
         }
 
         button {
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
-            background-color: #007bff;
-            color: white;
+            background-color: #0f0;
+            color: black;
             cursor: pointer;
             font-size: 16px;
         }
 
         button:hover {
-            background-color: #0056b3;
+            background-color: #0a0;
         }
 
         /* Buttons for curiosities */
@@ -70,17 +72,20 @@
         }
 
         .game-button {
-            background-color: #ffcc00;
-            color: #333;
+            background-color: black;
+            color: #0f0;
             padding: 15px;
             font-size: 18px;
+            border: 2px solid #0f0;
             border-radius: 5px;
             cursor: pointer;
             text-decoration: none;
+            font-weight: bold;
         }
 
         .game-button:hover {
-            background-color: #ffaa00;
+            background-color: #0a0;
+            color: white;
         }
     </style>
 </head>
@@ -94,17 +99,17 @@
     <!-- Main Content -->
     <div class="container">
         <div class="login-form">
-            <h1>Bem-vindo!</h1>
-            <p>Faça login para acessar o site:</p>
+            <h1>AOBAAAAA CONSEGUIU ENTRAR EEE</h1>
+            <p>TU TEM QUE FAZER O LOGIN BOY PRA ENTRAR NO MELHOR SITE DO MUNDOO:</p>
             <input type="text" placeholder="Usuário" id="username"><br>
             <input type="password" placeholder="Senha" id="password"><br>
             <button onclick="login()">Entrar</button>
         </div>
         <div class="buttons-container" style="display: none;">
-            <a class="game-button" id="btn17">17</a>
-            <a class="game-button" id="btn19">19</a>
-            <a class="game-button" id="btn16">16</a>
-            <a class="game-button" id="btn14">14</a>
+            <a href="curiosidades-brawlstars.html" class="game-button">17</a>
+            <a href="curiosidades-bloxfruits.html" class="game-button">19</a>
+            <a href="curiosidades-clashroyale.html" class="game-button">16</a>
+            <a href="curiosidades-fnaf.html" class="game-button">14</a>
         </div>
     </div>
 
